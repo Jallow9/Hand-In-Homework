@@ -1,3 +1,39 @@
 this is about me making
 through g ghub youtube
 it was send from slack team
+
+
+// function showMessage() {
+//     console.log("Hi There");
+// };
+
+// setTimeout()
+// setTimeout(saySomeThing(), 5000);
+// setTimeout(function(){
+//     console.log('saySomeThing');
+// }, 5000);
+
+// setTimeout(callback, milisecond);
+
+
+//saysomething
+//1
+function saySomeThing(){
+    console.log('hey there');
+
+};
+//2
+saySomeThing();
+
+setTimeout(saySomeThing, 5000);
+
+//3
+function sayALot(){
+    var x =  1;
+    var count = 1000;
+    for(x ; x <= 20 ; x++){
+        count = x * 1000;
+        setTimeout(saySomeThing, count);
+    }
+}
+sayALot
